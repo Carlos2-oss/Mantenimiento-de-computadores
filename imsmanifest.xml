@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="eXe-MANIFEST-mplzou1wsbl5u"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>imslrm.xml</adlcp:location>
+  </metadata>
+  <organizations default="eXe-mplzou1wsbl5u">
+    <organization identifier="eXe-mplzou1wsbl5u" structure="hierarchical">
+      <title>Mantenimiento de computadores </title>
+      <item identifier="ITEM-page-1779759521975-odxbw9rjo" identifierref="RES-page-1779759521975-odxbw9rjo" isvisible="true">
+        <title>Unidad 1: Mantenimiento de computadores</title>
+        <item identifier="ITEM-page-1779759547003-l5tm6oyih" identifierref="RES-page-1779759547003-l5tm6oyih" isvisible="true">
+          <title>Sección 1: mantenimiento preventivo</title>
+          <item identifier="ITEM-page-1779759553919-5gy0ud9b1" identifierref="RES-page-1779759553919-5gy0ud9b1" isvisible="true">
+            <title>Limpieza interna del CPU</title>
+          </item>
+          <item identifier="ITEM-page-1779759560609-jcy09vt8v" identifierref="RES-page-1779759560609-jcy09vt8v" isvisible="true">
+            <title>Actualización de software</title>
+          </item>
+          <item identifier="ITEM-page-1779759566589-146fj2xrn" identifierref="RES-page-1779759566589-146fj2xrn" isvisible="true">
+            <title>Respaldo de información</title>
+          </item>
+        </item>
+      </item>
+      <item identifier="ITEM-page-1779759571029-7akf5hnra" identifierref="RES-page-1779759571029-7akf5hnra" isvisible="true">
+        <title>Sección 2: mantenimiento correctivo</title>
+        <item identifier="ITEM-page-1779759580027-22gnjicnn" identifierref="RES-page-1779759580027-22gnjicnn" isvisible="true">
+          <title>Diagnóstico de fallos comunes</title>
+        </item>
+        <item identifier="ITEM-page-1779759586151-r3ew58wc5" identifierref="RES-page-1779759586151-r3ew58wc5" isvisible="true">
+          <title>Reemplazo de componentes (RAM, disco)</title>
+        </item>
+        <item identifier="ITEM-page-1779759590945-ziidxckpq" identifierref="RES-page-1779759590945-ziidxckpq" isvisible="true">
+          <title>Recuperación del sistema operativo</title>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-page-1779759521975-odxbw9rjo" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759547003-l5tm6oyih" type="webcontent" adlcp:scormtype="sco" href="html/seccion-1-mantenimiento-preventivo.html">
+      <file href="html/seccion-1-mantenimiento-preventivo.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759553919-5gy0ud9b1" type="webcontent" adlcp:scormtype="sco" href="html/limpieza-interna-del-cpu.html">
+      <file href="html/limpieza-interna-del-cpu.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759560609-jcy09vt8v" type="webcontent" adlcp:scormtype="sco" href="html/actualizacion-de-software.html">
+      <file href="html/actualizacion-de-software.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759566589-146fj2xrn" type="webcontent" adlcp:scormtype="sco" href="html/respaldo-de-informacion.html">
+      <file href="html/respaldo-de-informacion.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759571029-7akf5hnra" type="webcontent" adlcp:scormtype="sco" href="html/seccion-2-mantenimiento-correctivo.html">
+      <file href="html/seccion-2-mantenimiento-correctivo.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759580027-22gnjicnn" type="webcontent" adlcp:scormtype="sco" href="html/diagnostico-de-fallos-comunes.html">
+      <file href="html/diagnostico-de-fallos-comunes.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759586151-r3ew58wc5" type="webcontent" adlcp:scormtype="sco" href="html/reemplazo-de-componentes-ram-disco.html">
+      <file href="html/reemplazo-de-componentes-ram-disco.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-1779759590945-ziidxckpq" type="webcontent" adlcp:scormtype="sco" href="html/recuperacion-del-sistema-operativo.html">
+      <file href="html/recuperacion-del-sistema-operativo.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="COMMON_FILES" type="webcontent" adlcp:scormtype="asset">
+      <file href="content.dtd"/>
+      <file href="content.xml"/>
+      <file href="content/css/base.css"/>
+      <file href="content/img/exe_powered_logo.png"/>
+      <file href="content/resources/0715a704-2ca2-764d-4f8c-da216ef55f73.jpg"/>
+      <file href="content/resources/0d31a1d3-1b0c-65a6-2eb8-c8218314af9c.jpg"/>
+      <file href="content/resources/148570639-hardware-de-mantenimiento-de-tecnología-del-ingeniero-hombre-reparar-computadoras-servicio-de-pc.jpg"/>
+      <file href="content/resources/3398d786-901d-9dda-ce58-dc55c8e841ee.jpg"/>
+      <file href="content/resources/69f4836e-c850-fd21-2cff-f99776ace488.jpg"/>
+      <file href="content/resources/7752930a-135c-e94d-81e7-ddce808cbb8c.jpg"/>
+      <file href="content/resources/7da2dca1-073e-db4e-ade1-ed546c6a6a59.jpg"/>
+      <file href="content/resources/8263d431-3913-1b1e-c364-71f2d9177e73.jpg"/>
+      <file href="content/resources/9e860d87-0f3b-3406-8b4f-a2b28d922aa7.jpg"/>
+      <file href="content/resources/IMG_20190919_171054-e1579193207712.jpg"/>
+      <file href="content/resources/IMG_20200116_182502-e1579196106439.jpg"/>
+      <file href="content/resources/Limpieza-en-Equipo-de-Computo-Interna-y-Externa-10-2048.jpg"/>
+      <file href="content/resources/Limpieza-en-Equipo-de-Computo-Interna-y-Externa-4-2048.jpg"/>
+      <file href="content/resources/PracticosMC.jpg"/>
+      <file href="content/resources/Reparacion_del_Sistema_0.jpg"/>
+      <file href="content/resources/a4f5541f-9ebd-d5c3-fea7-3af5aeceb1ba.jpg"/>
+      <file href="content/resources/actualización-de-software-en-el-equipo-para-la-versión-modish-del-software-del-dispositivo.jpg"/>
+      <file href="content/resources/ad22a9df-c09b-3011-167f-a17f57bbc667.jpg"/>
+      <file href="content/resources/c9b517f5-3d6b-dded-3705-61199c7bd726.jpg"/>
+      <file href="content/resources/ca232879-d52a-a5ce-0c14-89844a8b6acd.jpg"/>
+      <file href="content/resources/db5fdb53-621f-aa9c-2f5c-458ab5b30971.jpg"/>
+      <file href="content/resources/ef63b063-65ce-a88b-b5fc-8c9e66cb59d5.jpg"/>
+      <file href="content/resources/efa07ef8-7569-fdae-a4ae-87e729c6409b.jpg"/>
+      <file href="content/resources/f51f0da7-3718-52b6-d418-c667198bd501.jpg"/>
+      <file href="content/resources/fc3c5_1.jpg"/>
+      <file href="content/resources/fe476524-ec79-f1e6-9b95-f583334b8e68.jpg"/>
+      <file href="content/resources/introduccion-al-mantenimiento-y-reparacion-de-computadoras-pdf-19-320.jpg"/>
+      <file href="content/resources/mantenimiento-preventivo-y-correctivo-de-la-pc-2.jpg"/>
+      <file href="content/resources/mantenimientocorrectivodeuncomputador-120514193344-phpapp02-thumbnail.jpg"/>
+      <file href="content/resources/portada-mantenimiento-correctivo.jpg"/>
+      <file href="content/resources/problemas-hardware-2.jpg"/>
+      <file href="content/resources/respaldo-de-informacion-5.jpg"/>
+      <file href="content/resources/respaldo-de-informacion-7.jpg"/>
+      <file href="content/resources/windows-update-windows-10-agg.jpg"/>
+      <file href="idevices/image-gallery/exequextsq.svg"/>
+      <file href="idevices/image-gallery/image-gallery.css"/>
+      <file href="idevices/image-gallery/image-gallery.html"/>
+      <file href="idevices/image-gallery/image-gallery.js"/>
+      <file href="idevices/image-gallery/simple-lightbox.min.css"/>
+      <file href="idevices/image-gallery/simple-lightbox.min.js"/>
+      <file href="idevices/text/exequextsq.svg"/>
+      <file href="idevices/text/text.css"/>
+      <file href="idevices/text/text.html"/>
+      <file href="idevices/text/text.js"/>
+      <file href="imslrm.xml"/>
+      <file href="libs/SCOFunctions.js"/>
+      <file href="libs/SCORM_API_wrapper.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js.map"/>
+      <file href="libs/bootstrap/bootstrap.min.css"/>
+      <file href="libs/bootstrap/bootstrap.min.css.map"/>
+      <file href="libs/common.js"/>
+      <file href="libs/common_i18n.js"/>
+      <file href="libs/exe_export.js"/>
+      <file href="libs/exe_lightbox/exe_lightbox.css"/>
+      <file href="libs/exe_lightbox/exe_lightbox.js"/>
+      <file href="libs/exe_lightbox/exe_lightbox_default_thumb.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_loader.gif"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_next.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_prev.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_x.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_y.png"/>
+      <file href="libs/favicon.ico"/>
+      <file href="libs/jquery/jquery.min.js"/>
+      <file href="theme/config.xml"/>
+      <file href="theme/icons/activity.png"/>
+      <file href="theme/icons/agreement.png"/>
+      <file href="theme/icons/alert.png"/>
+      <file href="theme/icons/arts.png"/>
+      <file href="theme/icons/ask.png"/>
+      <file href="theme/icons/book.png"/>
+      <file href="theme/icons/calculate.png"/>
+      <file href="theme/icons/case.png"/>
+      <file href="theme/icons/chrono.png"/>
+      <file href="theme/icons/collaborative.png"/>
+      <file href="theme/icons/competencies.png"/>
+      <file href="theme/icons/diary.png"/>
+      <file href="theme/icons/diary_alt.png"/>
+      <file href="theme/icons/discuss.png"/>
+      <file href="theme/icons/download.png"/>
+      <file href="theme/icons/draw.png"/>
+      <file href="theme/icons/english.png"/>
+      <file href="theme/icons/experiment.png"/>
+      <file href="theme/icons/explore.png"/>
+      <file href="theme/icons/file.png"/>
+      <file href="theme/icons/gallery.png"/>
+      <file href="theme/icons/geography.png"/>
+      <file href="theme/icons/guide.png"/>
+      <file href="theme/icons/history.png"/>
+      <file href="theme/icons/info.png"/>
+      <file href="theme/icons/interactive.png"/>
+      <file href="theme/icons/letters.png"/>
+      <file href="theme/icons/listen.png"/>
+      <file href="theme/icons/math.png"/>
+      <file href="theme/icons/music.png"/>
+      <file href="theme/icons/nature.png"/>
+      <file href="theme/icons/objectives.png"/>
+      <file href="theme/icons/observe.png"/>
+      <file href="theme/icons/passport.png"/>
+      <file href="theme/icons/perform.png"/>
+      <file href="theme/icons/piece.png"/>
+      <file href="theme/icons/pieces.png"/>
+      <file href="theme/icons/play.png"/>
+      <file href="theme/icons/present.png"/>
+      <file href="theme/icons/reflection.png"/>
+      <file href="theme/icons/roadmap.png"/>
+      <file href="theme/icons/share.png"/>
+      <file href="theme/icons/sport.png"/>
+      <file href="theme/icons/start.png"/>
+      <file href="theme/icons/stop.png"/>
+      <file href="theme/icons/suitcase.png"/>
+      <file href="theme/icons/technology.png"/>
+      <file href="theme/icons/think.png"/>
+      <file href="theme/icons/think_alt.png"/>
+      <file href="theme/icons/video.png"/>
+      <file href="theme/img/icons.png"/>
+      <file href="theme/img/licenses.gif"/>
+      <file href="theme/screenshot.png"/>
+      <file href="theme/style.css"/>
+      <file href="theme/style.js"/>
+    </resource>
+  </resources>
+</manifest>
